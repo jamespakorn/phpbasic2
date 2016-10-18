@@ -14,13 +14,28 @@ and open the template in the editor.
              
             $array1=['a'=>23,'b'=>34,'c'=>56];
             
-           // print_r($array1);
+            print_r($array1);
             echo '<hr>';
             //echo $array1['d'];
             
-            foreach ($array1 as $k => $v) {
-               echo 'key :'.$k.'  / '.$v.'<br>'; 
+//            foreach ($array1 as $k => $v) {
+//               echo 'key :'.$k.'  / '.$v.'<br>'; 
+//            }
+//            echo '<hr>';
+            
+            $array2=['dmax','honda','kava'];
+            print_r($array2);
+//            echo '<hr>';
+            
+//            echo $array2[1];
+            echo '<hr>';
+            
+            for($x=0;$x<count($array2);$x++){
+                echo $array2[$x].'<br>';
+                
             }
+            
+            
         ?>
     </body>
 </html>
